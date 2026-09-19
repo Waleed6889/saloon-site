@@ -1,0 +1,6 @@
+{
+  "name": "NOIR & FADE | Luxury Barbershop & Men's Grooming Lounge",
+  "description": "Premier modern men's salon and barbershop specializing in precision skin fades, beard sculpting, textured cuts, and artisan grooming for the modern gentleman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

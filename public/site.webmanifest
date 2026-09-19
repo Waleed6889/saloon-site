@@ -1,0 +1,17 @@
+{
+  "name": "NOIR & FADE | Luxury Barbershop",
+  "short_name": "NOIR & FADE",
+  "description": "Premier modern men's salon and barbershop specializing in precision skin fades, beard sculpting, and artisan grooming.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0c10",
+  "theme_color": "#0b0c10",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

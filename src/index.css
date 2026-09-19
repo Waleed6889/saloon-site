@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0b0c10;
+    color: #e4e6ea;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f14;
+}
+::-webkit-scrollbar-thumb {
+  background: #252833;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #393e4f;
+}
+
+/* Subtle glow and accent glass effects */
+.subtle-glow {
+  box-shadow: 0 0 35px -8px rgba(212, 163, 115, 0.18);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5d49f 0%, #d4a373 50%, #b37d46 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, rgba(23, 26, 34, 0.75) 0%, rgba(16, 18, 24, 0.95) 100%);
+}
+
+.border-glow-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.border-glow-hover:hover {
+  border-color: rgba(212, 163, 115, 0.4);
+  box-shadow: 0 8px 30px -10px rgba(212, 163, 115, 0.12);
+}
+

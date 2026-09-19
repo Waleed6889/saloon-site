@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noirandfade-barbershop.com/sitemap.xml
